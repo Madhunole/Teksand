@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+      "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" 
+      "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	
+	<definition name="bootcamp.layout" template="/jsp/bootcamp/layout/layout.jsp">		
+		<put-attribute name="header" value="/jsp/bootcamp/layout/header.jsp"></put-attribute>
+		<put-attribute name="menu" value="/jsp/bootcamp/layout/menu.jsp"></put-attribute>
+		<put-attribute name="content" value=""></put-attribute>
+		<put-attribute name="footer" value="/jsp/bootcamp/layout/footer.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="bootcamp.login" template="/jsp/bootcamp/common/login.jsp"></definition>
+	<definition name="bootcamp.logout" template="/jsp/bootcamp/common/logout.jsp"></definition>
+	
+	<definition name="bootcamp.dashboard" extends="bootcamp.layout">
+		<put-attribute name="content" value="/jsp/bootcamp/common/home.jsp"></put-attribute>
+	</definition>
+	
+	<!--Brand Starts Here  -->
+	
+		<!-- SuperAdmin Starts Here -->
+		
+			<definition name="bootcamp.admin.brands.list" extends="bootcamp.layout">
+				<put-attribute name="content" value="/jsp/bootcamp/admin/brand/brands-list.jsp"></put-attribute>
+			</definition>
+			
+			<definition name="bootcamp.admin.brands.add.update" extends="bootcamp.layout">
+				<put-attribute name="content" value="/jsp/bootcamp/admin/brand/add-update-brand.jsp"></put-attribute>
+			</definition>
+			
+			<definition name="bootcamp.admin.brands.view" extends="bootcamp.layout">
+				<put-attribute name="content" value="/jsp/bootcamp/admin/brand/view-brand.jsp"></put-attribute>
+			</definition>
+			
+		<!-- SuperAdmin Starts Here -->
+	
+		<!-- BrandAdmin Starts Here -->
+		
+			<definition name="bootcamp.user.brand.dashboard" extends="bootcamp.layout">
+				<put-attribute name="content" value="/jsp/bootcamp/user/brand/home.jsp"></put-attribute>
+			</definition>
+			
+			<definition name="bootcamp.user.brand.view" extends="bootcamp.layout">
+				<put-attribute name="content" value="/jsp/bootcamp/user/brand/brand.jsp"></put-attribute>
+			</definition>
+			
+			<definition name="bootcamp.user.brand.edit" extends="bootcamp.layout">
+				<put-attribute name="content" value="/jsp/bootcamp/user/brand/edit.jsp"></put-attribute>
+			</definition>
+			
+			<definition name="bootcamp.user.brand.user.list" extends="bootcamp.layout">
+				<put-attribute name="content" value="/jsp/bootcamp/user/brand/user-list.jsp"></put-attribute>
+			</definition>
+			
+			<definition name="bootcamp.user.brand.newuser" extends="bootcamp.layout">
+				<put-attribute name="content" value="/jsp/bootcamp/user/brand/add-update-user.jsp"></put-attribute>
+			</definition>
+			
+			<definition name="bootcamp.user.brand.skills" extends="bootcamp.layout">
+				<put-attribute name="content" value="/jsp/bootcamp/user/brand/parameter/skills.jsp"></put-attribute>
+			</definition>
+			
+			<definition name="bootcamp.user.brand.domains" extends="bootcamp.layout">
+				<put-attribute name="content" value="/jsp/bootcamp/user/brand/parameter/domains.jsp"></put-attribute>
+			</definition>
+			
+			<definition name="bootcamp.user.brand.application.status" extends="bootcamp.layout">
+				<put-attribute name="content" value="/jsp/bootcamp/user/brand/parameter/application-status.jsp"></put-attribute>
+			</definition>
+			
+			<definition name="bootcamp.user.brand.interview.status" extends="bootcamp.layout">
+				<put-attribute name="content" value="/jsp/bootcamp/user/brand/parameter/interview-status.jsp"></put-attribute>
+			</definition>
+			
+			<definition name="bootcamp.user.brand.interview.rounds" extends="bootcamp.layout">
+				<put-attribute name="content" value="/jsp/bootcamp/user/brand/parameter/interview-rounds.jsp"></put-attribute>
+			</definition>
+			
+			<definition name="bootcamp.user.brand.interview.results" extends="bootcamp.layout">
+				<put-attribute name="content" value="/jsp/bootcamp/user/brand/parameter/interview-results.jsp"></put-attribute>
+			</definition>
+			
+			<definition name="bootcamp.user.brand.joining.status" extends="bootcamp.layout">
+				<put-attribute name="content" value="/jsp/bootcamp/user/brand/parameter/joining-status.jsp"></put-attribute>
+			</definition>
+			
+			<definition name="bootcamp.user.brand.offer.status" extends="bootcamp.layout">
+				<put-attribute name="content" value="/jsp/bootcamp/user/brand/parameter/offer-status.jsp"></put-attribute>
+			</definition>	
+				
+			<definition name="bootcamp.user.brand.document.status" extends="bootcamp.layout">
+				<put-attribute name="content" value="/jsp/bootcamp/user/brand/parameter/document-status.jsp"></put-attribute>
+			</definition>
+			
+			<definition name="bootcamp.user.brand.clients" extends="bootcamp.layout">
+				<put-attribute name="content" value="/jsp/bootcamp/user/brand/clients.jsp"></put-attribute>
+			</definition>		
+			
+			<definition name="bootcamp.user.brand.jobs" extends="bootcamp.layout">
+				<put-attribute name="content" value="/jsp/bootcamp/user/brand/jobs-list.jsp"></put-attribute>
+			</definition>
+			
+			<definition name="bootcamp.user.brand.add.update.jobs" extends="bootcamp.layout">
+				<put-attribute name="content" value="/jsp/bootcamp/user/brand/add-update-job.jsp"></put-attribute>
+			</definition>
+			
+			<definition name="bootcamp.user.brand.view.job" extends="bootcamp.layout">
+				<put-attribute name="content" value="/jsp/bootcamp/user/brand/view-jobs.jsp"></put-attribute>
+			</definition>
+			
+			<definition name="bootcamp.brand.view.candidate" extends="bootcamp.layout">
+				<put-attribute name="content" value="/jsp/bootcamp/user/brand/view-candidate.jsp"></put-attribute>
+			</definition>
+			
+			<definition name="bootcamp.brand.add.candidate" extends="bootcamp.layout">
+				<put-attribute name="content" value="/jsp/bootcamp/user/brand/add-update-candidate.jsp"></put-attribute>
+			</definition>
+			
+			<definition name="bootcamp.brand.candidate" extends="bootcamp.layout">
+				<put-attribute name="content" value="/jsp/bootcamp/user/brand/candidate-list.jsp"></put-attribute>
+			</definition>	
+			
+			<definition name="bootcamp.user.brand.client.list" extends="bootcamp.layout">
+				<put-attribute name="content" value="/jsp/bootcamp/user/brand/client-list.jsp"></put-attribute>
+			</definition>		
+					
+			<definition name="bootcamp.user.brand.add.update.client" extends="bootcamp.layout">
+				<put-attribute name="content" value="/jsp/bootcamp/user/brand/add-update-client.jsp"></put-attribute>
+			</definition>	
+				
+			<definition name="bootcamp.user.brand.client.view" extends="bootcamp.layout">
+				<put-attribute name="content" value="/jsp/bootcamp/user/brand/view-client.jsp"></put-attribute>
+			</definition>			
+			
+		<!-- BrandAdmin Ends Here -->
+		
+		<!-- ClientAdmin Starts Here -->
+							
+			<definition name="bootcamp.user.client.dashboard" extends="bootcamp.layout">
+				<put-attribute name="content" value="/jsp/bootcamp/user/client/home.jsp"></put-attribute>
+			</definition>
+			
+			<definition name="bootcamp.user.client.view" extends="bootcamp.layout">
+				<put-attribute name="content" value="/jsp/bootcamp/user/client/brand.jsp"></put-attribute>
+			</definition>
+			
+			<definition name="bootcamp.user.client.jobs" extends="bootcamp.layout">
+				<put-attribute name="content" value="/jsp/bootcamp/user/client/jobs-list.jsp"></put-attribute>
+			</definition>
+			
+			<definition name="bootcamp.user.client.add.update.jobs" extends="bootcamp.layout">
+				<put-attribute name="content" value="/jsp/bootcamp/user/client/add-update-job.jsp"></put-attribute>
+			</definition>
+			
+			<definition name="bootcamp.user.client.view.job" extends="bootcamp.layout">
+				<put-attribute name="content" value="/jsp/bootcamp/user/client/view-jobs.jsp"></put-attribute>
+			</definition>
+			
+			<definition name="bootcamp.user.client.view.candidate" extends="bootcamp.layout">
+				<put-attribute name="content" value="/jsp/bootcamp/user/client/view-candidate.jsp"></put-attribute>
+			</definition>
+			
+			<definition name="bootcamp.user.client.add.candidate" extends="bootcamp.layout">
+				<put-attribute name="content" value="/jsp/bootcamp/user/client/add-update-candidate.jsp"></put-attribute>
+			</definition>		
+			
+			<definition name="bootcamp.user.client.candidate" extends="bootcamp.layout">
+				<put-attribute name="content" value="/jsp/bootcamp/user/client/candidate-list.jsp"></put-attribute>
+			</definition>
+			
+			<definition name="bootcamp.user.client.list" extends="bootcamp.layout">
+				<put-attribute name="content" value="/jsp/bootcamp/user/client/client-list.jsp"></put-attribute>
+			</definition>		
+					
+			<definition name="bootcamp.user.client.add.update.client" extends="bootcamp.layout">
+				<put-attribute name="content" value="/jsp/bootcamp/user/client/add-update-client.jsp"></put-attribute>
+			</definition>	
+				
+			<definition name="bootcamp.user.client.view.client" extends="bootcamp.layout">
+				<put-attribute name="content" value="/jsp/bootcamp/user/client/view-client.jsp"></put-attribute>
+			</definition>			
+			
+		<!-- ClientAdmin Ends Here -->
+	
+	<!--Brand Ends Here  -->
+
+	
+	<definition name="bootcamp.candidate" extends="bootcamp.layout">
+		<put-attribute name="content" value="/jsp/bootcamp/candidate/candidate-list.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="bootcamp.add.candidate" extends="bootcamp.layout">
+		<put-attribute name="content" value="/jsp/bootcamp/candidate/add-update-candidate.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="bootcamp.view.candidate" extends="bootcamp.layout">
+		<put-attribute name="content" value="/jsp/bootcamp/candidate/view-candidate.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="bootcamp.list.bootcamp" extends="bootcamp.layout">
+		<put-attribute name="content" value="/jsp/bootcamp/bootcamp/bootcamp-list.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="bootcamp.add.bootcamp" extends="bootcamp.layout">
+		<put-attribute name="content" value="/jsp/bootcamp/bootcamp/add-update-bootcamp.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="bootcamp.view.bootcamp" extends="bootcamp.layout">
+		<put-attribute name="content" value="/jsp/bootcamp/bootcamp/view-bootcamp.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="bootcamp.assign.bootcamp" extends="bootcamp.layout">
+		<put-attribute name="content" value="/jsp/bootcamp/bootcamp/assign-bootcamp.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="bootcamp.client.master" extends="bootcamp.layout">
+		<put-attribute name="content" value="/jsp/bootcamp/client-master/client-master.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="bootcamp.add.client.master" extends="bootcamp.layout">
+		<put-attribute name="content" value="/jsp/bootcamp/client-master/add-client-master.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="bootcamp.view.client.master" extends="bootcamp.layout">
+		<put-attribute name="content" value="/jsp/bootcamp/client-master/view-client-master.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="bootcamp.mentor.master" extends="bootcamp.layout">
+		<put-attribute name="content" value="/jsp/bootcamp/mentor-master/mentor-master.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="bootcamp.add.mentor.master" extends="bootcamp.layout">
+		<put-attribute name="content" value="/jsp/bootcamp/mentor-master/add-mentor-master.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="bootcamp.view.mentor.master" extends="bootcamp.layout">
+		<put-attribute name="content" value="/jsp/bootcamp/mentor-master/view-mentor-master.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="bootcamp.interview.feedbacks" extends="bootcamp.layout">
+		<put-attribute name="content" value="/jsp/bootcamp/candidate/interview-feedback.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="bootcamp.update.interview.feedback" extends="bootcamp.layout">
+		<put-attribute name="content" value="/jsp/bootcamp/candidate/update-interview-feedback.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="bootcamp.candidate.search" extends="bootcamp.layout">
+		<put-attribute name="content" value="/jsp/bootcamp/candidate/search-candidate.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="bootcamp.list.interview" extends="bootcamp.layout">
+		<put-attribute name="content" value="/jsp/bootcamp/interview/interview-list.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="bootcamp.add.update.interview" extends="bootcamp.layout">
+		<put-attribute name="content" value="/jsp/bootcamp/interview/add-update-interview.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="bootcamp.list.jobs" extends="bootcamp.layout">
+		<put-attribute name="content" value="/jsp/bootcamp/jobs/jobs-list.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="bootcamp.add.update.job" extends="bootcamp.layout">
+		<put-attribute name="content" value="/jsp/bootcamp/jobs/add-update-job.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="bootcamp.view.job" extends="bootcamp.layout">
+		<put-attribute name="content" value="/jsp/bootcamp/jobs/view-job.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="bootcamp.assign.jobs" extends="bootcamp.layout">
+		<put-attribute name="content" value="/jsp/bootcamp/jobs/assign-job.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="bootcamp.list.log" extends="bootcamp.layout">
+		<put-attribute name="content" value="/jsp/bootcamp/log/log.jsp"></put-attribute>
+	</definition>
+		
+	<definition name="bootcamp.exam.createtest" extends="bootcamp.layout">
+		<put-attribute name="content" value="/jsp/bootcamp/exam/create-test.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="bootcamp.exam.test.list" extends="bootcamp.layout">
+		<put-attribute name="content" value="/jsp/bootcamp/exam/test-list.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="bootcamp.exam.test.view" extends="bootcamp.layout">
+		<put-attribute name="content" value="/jsp/bootcamp/exam/view-test.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="bootcamp.exam.test.user.list" extends="bootcamp.layout">
+		<put-attribute name="content" value="/jsp/bootcamp/exam/test-user-list.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="bootcamp.exam.test.user.list.view" extends="bootcamp.layout">
+		<put-attribute name="content" value="/jsp/bootcamp/exam/view-user-test-list.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="bootcamp.exam.test.user.answer.list" extends="bootcamp.layout">
+		<put-attribute name="content" value="/jsp/bootcamp/exam/view-user-answer-list.jsp"></put-attribute>
+	</definition>
+
+</tiles-definitions>

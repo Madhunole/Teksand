@@ -1,0 +1,118 @@
+.tek_section .align-items-center {
+    align-items: center !important;
+}
+.tek_section .my-3 {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+}
+.tek_section .rounded-3 {
+    border-radius: 0.75rem !important;
+}
+.tek_section .bg-secondary {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
+}
+.tek_section .text-white {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+}
+.tek_section .py-1 {
+    padding-top: 0.25rem !important;
+    padding-bottom: 0.25rem !important;
+}
+.tek_section .px-3 {
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+}
+.tek_section .mb-3 {
+    margin-bottom: 1rem !important;
+}
+.tek_section label {
+    display: inline-block;
+}
+.tek_section .mb-4 {
+    margin-bottom: 1.5rem !important;
+}
+.tek_section .pt-3 {
+    padding-top: 1rem!important;
+}
+.tek_section .media {
+    display: flex;
+}
+.tek_section .dots-icon {
+    position: relative;
+}
+.tek_section .icon-lg {
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1;
+}
+.tek_section .bg-gray-100 {
+    background: #f1f6fd !important;
+}
+.tek_section .border-primary {
+    border-color: #03c !important;
+}
+.tek_section .border {
+    border: 1px solid #e2e8f0 !important;
+}
+.tek_section .dots {
+    z-index: 0;
+    animation: dots 6s infinite linear;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.tek_section .dots .dot1 {
+    background-color: #8ad9fd;
+    transform: translate(15px, 5px);
+    animation: dot1 1.5s infinite alternate;
+}
+.tek_section .dots .dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 100px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -3px;
+    margin-top: -3px;
+}
+.tek_section .dots .dot2 {
+    background-color: #b8a6f7;
+    transform: translate(-8px, 8px);
+    animation: dot2 1.5s infinite alternate;
+    animation-delay: .5s;
+}
+.tek_section .dots .dot3 {
+    background-color: #fac5a7;
+    transform: translate(-5px, -12px);
+    animation: dot3 1.5s infinite alternate;
+    animation-delay: 1s;
+}
+.tek_section .media .media-body {
+    flex: 1;
+}
+.tek_section .ps-3 {
+    padding-left: 1rem !important;
+}
+.tek_section .m-0 {
+    margin: 0 !important;
+}
+.tek_section .ms-auto {
+    margin-left: auto !important;
+}
+.tek_section img {
+    max-width: 100%;
+    height: auto;
+}
+.tek_section .mt-0 {
+	margin-top: 0px !important;
+}

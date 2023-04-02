@@ -1,0 +1,597 @@
+.wpcf7 form.sent .wpcf7-response-output {
+    border-color: #00a0d2;
+    color: #fff;
+    }
+    .wpcf7 form.invalid .wpcf7-response-output, .wpcf7 form.unaccepted .wpcf7-response-output {
+    border-color: #00a0d2;
+    color: #dc3232;
+    }
+    
+    
+    
+    
+    
+    html{
+        font-size: 100%;
+        box-sizing: border-box;
+    } 
+    *, *::before, *::after{
+        box-sizing: inherit;
+    }
+    h1,h2, h3, h4, h5, h6, p, a{
+        margin: 0;
+        padding:0;
+    }
+    a{
+        text-decoration: none;
+         color: #00acd3;
+    }
+    a:hover{
+        color: #0483a0;
+    }
+    p{
+        font-size: 1rem;
+        color: #292b2c;
+        margin-bottom: 20px;
+    }
+    body{
+        margin: 0;
+        padding: 0; 
+        font-family: 'Roboto', sans-serif;
+        line-height: 1.3; 
+    }
+    .page-container{
+        margin: 0px 20px; 
+        padding: 30px 0px;
+    }
+    .main-heading{
+        font-family: 'Asap', sans-serif;
+        font-size: 2rem;
+        color: #ffffff;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+    .sub-heading{
+        font-family: 'Asap', sans-serif;
+        font-size: 1.3rem;
+        color: #00acd3;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+    /*Elementor css*/
+    .elementor-column-gap-default>.elementor-column>.elementor-element-populated {
+        padding: 0px;  
+    }
+    /*Header*/
+    .header{
+        text-align: center;
+        background-color: #ffffff;
+        margin: 10px 0px;
+    }
+    .brand img{
+        width: 200px;
+        margin: 0px 20px;
+    }
+    /*Banner*/
+    
+    .banner{
+       background-image: url(../images/banner-data.jpg);
+        background-size: cover;
+        position: relative;
+    }
+    .course-fee{
+        color: #fff;
+        font-size: 1.3rem;
+    }
+    .del{
+        color: #bbbbbb;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    
+    /*CTA-button*/
+    .cta-btn{
+        background-color: #00acd3;
+        color: #ffffff;
+        padding: 10px 25px;
+        display: inline-block;
+        border-radius: 25px;
+    }
+    .cta-btn:hover {
+        color: #e3e3e3;
+        
+    }
+    .final-cta{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .final-cta a{
+        max-width: 300px;
+        flex-basis: 46%;
+    }
+    .bottom-cta{
+        width: 100%;
+        padding: 10px 12px;
+        margin: 8px 10px;
+        display: inline-block;
+        border: 1px solid rgba(204, 204, 204, 0);
+        border-radius: 4px;
+        text-align: center;
+        background-color: #ffffff;
+        color: #00acd3;
+        font-weight: 500;
+        font-size: 1rem;
+    }
+    /*Form */
+    .brochure-form{
+        background-color: #1e293c;
+        color: #ffffff;
+        text-align: center;
+        border-radius: 8px;
+        padding: 10px 25px;
+        margin: 40px 0px;
+    }
+    .brochure-form .heading{
+        font-size: 1.3rem;
+        margin: 10px 0px;
+        color: #ffffff;
+    }
+    .brochure-form .sub-head{
+       font-size: 1rem;
+       font-weight: 300;
+       margin: 10px 0px;
+       color: #ffffff;
+    }
+    .brochure-form input[type=text], .brochure-form select, .brochure-form input[type=email], .brochure-form input[type=exp]{
+        width: 100%;
+        padding: 10px 16px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        color:#000000;
+    }
+    
+    .brochure-form input[type=text] placeholder{
+       color:white; 
+    }
+    .brochure-form input[type=tel]{
+        width: 100%;
+        padding: 10px 16px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        color:#000;
+    }
+    .brochure-form input[type=submit]{
+        width: 100%;
+        padding: 10px 16px;
+        margin: 8px 0;
+        display: block;
+        border: 1px solid rgba(204, 204, 204, 0);
+        border-radius: 4px;
+        background-color: #00acd3; 
+        color: #ffffff;
+        font-weight: 500; 
+        font-size: 1rem;
+    }
+    .wpcf7 input[type=submit] {
+        border: 0;
+        width: 100%;
+    }
+    .brochure-form .agreement{
+        text-align: justify;
+        font-size: 0.7rem;
+        font-weight: 400;
+        color: #d6d6d6;
+        margin: 10px 0px;
+    }
+    /*Course Introuctiom*/
+    .course-intro{
+        width: 100%;
+        height: 200px;
+    }
+    /*Grey Section*/
+    .bg-grey{
+        background-color: #F8F8F8;
+    }
+    .features, .features2{
+        background-color: #ffffff;
+        display: flex;
+        align-items: center;
+        border: 2px solid #eee;
+        border-radius: 8px;
+        padding: 10px 30px;
+        height: 100%;
+        min-height: 94px;
+        margin: 10px;
+    }
+    .features img, .features2 img{
+        width: 70px;
+        margin-right: 20px;
+    }
+    .sec-heading{
+        font-family: 'Asap', sans-serif;
+        font-size: 1.8rem;
+        color: #54595F;
+        font-weight: 500;
+        margin-bottom: 30px;
+        position: relative;
+    }
+    /*.sec-heading::after{
+        content: '';
+        background-color: #000;
+        width: 200px;
+        height: 2px;
+        position: absolute;
+    }*/
+    .p-bold{
+        font-weight: 500;
+    }
+    .t-just{
+        text-align: justify;
+    }
+    .sec-color{
+        color: #00acd3;
+    }
+    .features-p{
+        color: #000000;
+        font-weight: 500;
+        margin: 0;
+    }
+    .course-desc-list li{
+        margin: 18px 0px;
+        text-align: justify;
+        color: #000000;
+        margin-left: -40px;
+    }
+    .gradient-bg{
+        background: rgb(88,183,236);
+        background: linear-gradient(50deg, rgba(88,183,236,1) 0%, rgba(1,27,63,1) 100%);
+    }
+    .instructor{
+        text-align: center;
+        color: #ffffff;
+    }
+    .instructor img{
+        margin: 10px 0px;
+    }
+    .instructor p{
+        color: #ffffff;
+    }
+    .text-white{
+        color: #ffffff;
+    }
+    .instructor-block{
+        text-align: center;
+    }
+    .instructor img{
+        padding: 20px;
+    }
+    .text-center{
+        text-align: center;
+    }
+    .topics{
+        margin-bottom: 50px;
+    }
+    .topics .sec-heading{
+        text-align: center;
+    }
+    .instructor-desc p:first-child{
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-bottom: 5px;
+    }
+    .instructor-desc p:nth-child(2){
+        font-size: 1.2rem;
+        margin-bottom: 0;
+        margin-bottom: 5px;
+    }
+    .course-table{
+        overflow-x: auto;
+    }
+    .batch-table{
+        width: 100%;
+        border-collapse: collapse;
+        border-radius: 8px;
+        text-align: center;
+    }
+    .batch-table, .batch-table th, .batch-table td{
+        border: 1px solid #eee; 
+        vertical-align: middle;
+    }
+    .batch-table tr:first-child{
+        background: rgb(88,183,236);
+        background: linear-gradient(50deg, rgba(88,183,236,1) 0%, rgba(1,27,63,1) 100%);
+    }
+    .batch-table tr:nth-child(2){
+        background-color: #F8F8F8;
+    }
+    .batch-table th{
+        color: #ffffff;
+        padding: 10px 0px;
+    }
+    .batch-table td{
+        padding: 10px;
+    }
+    .cta{
+        width: 100%;
+        padding: 10px 12px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid rgba(204, 204, 204, 0);
+        border-radius: 4px;
+        text-align: center;
+        background-color: #00acd3;
+        color: #ffffff;
+        font-weight: 500;
+        font-size: 1rem;
+    }
+    .cta:hover{
+        color: #f3f3f3;
+    }
+    /*Accordion*/
+    .accordion {
+        background-color: #eee;
+        color: #444;
+        cursor: pointer;
+        padding: 18px 27px 18px 18px;
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #cdcdcd;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        transition: 0.8s;
+        position: relative;
+      }
+      
+      .active, .accordion:hover {
+        background-color: #00acd3;
+        color: #ffffff;
+      }
+      
+      .accordion:after {
+        content: '\002B';
+        color: #777;
+        font-weight: bold;
+        /*float: right;
+        margin-left: 5px;*/
+        position: absolute;
+        top: 39%;
+        right: 4%;
+      }
+      
+      .active:after {
+        content: "\2212";
+        color: #ffffff;
+      }
+      
+      .answers {
+        padding: 0px 18px;
+        background-color: white;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+      }
+      .answers p:first-child{
+          margin-top: 10px;;
+      }
+      .certificate{
+          text-align: center;
+      }
+      .certificate img{
+        margin-top: 20px;
+        max-width: 400px;
+      }
+      .certificate .cta{
+        max-width: 200px;
+      }
+      .about img{
+          max-width: 200px;;
+      }
+      .about-desc{
+          margin: 20px 10px; 
+      }
+        .projects{
+          padding: 10px;
+          margin: 0px 10px 40px 10px;
+          border: 2px solid rgb(238, 238, 238);
+          border-radius: 8px;
+      }
+      .project-img{
+          width: 100%;
+          margin-bottom: 20px;
+      }
+      .example{
+          color: #525050;
+          margin: 15px 0px;
+      }
+      .features-desc{
+          margin-top: 50px;
+          text-align: justify;
+      }
+    /*CSS for Large Screen*/
+    @media (min-width: 768px){
+        .lg-center{
+            text-align: center;
+        }
+        .header{
+            text-align: left;
+        }
+        .page-container{
+            padding: 50px;  
+        }
+        .overlay{
+            background: url(../images/banner-img.png);
+            background-size: 450px;
+            width: 500px;
+            height: 580px;
+            position: absolute;
+            top: 10%;
+            left: 0px;
+            overflow-y: hidden;
+            background-repeat: no-repeat;
+        }
+       .banner-desc{
+            z-index: 99999;
+            background: rgb(1,27,63);
+            background: linear-gradient(50deg, rgba(1,27,63,1) 0%, rgba(0,0,0,0) 70%);
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .flex{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .flex div{
+            width: 100%;
+        }
+        .features-container, .features-container2{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .course-overview{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .course-overview div{
+            flex-basis: 50%;
+            padding: 10px;
+        }
+        .instructor{
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            text-align: left;
+        }
+        .instructor div:first-child{
+            flex: 1;
+        }
+        .instructor div:last-child{
+            flex: 2;
+        }
+        .cta{
+            width: 80%;
+        }
+        .certificate{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .certificate div:first-child{
+            text-align: left;
+        }
+        .certificate div{
+            flex-basis: 46%;
+        }
+        .about img{
+            max-width: 300px;;
+        }
+        .about-desc{
+            margin: 20px 30px; 
+        }
+        .course-intro{
+            width: 100%;
+            height: 500px;
+        }
+        .projects-container{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .banner-desc{
+            z-index: 99999;
+            background: rgb(1,27,63);
+            background: linear-gradient(50deg, rgba(1,27,63,1) 0%, rgba(0,0,0,0) 70%);
+            padding: 20px;
+            border-radius: 8px;
+        }
+    }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      
+        .features-container .features, .features-container2 .features2{
+            flex-basis: 46%;
+        }
+        .head-left{
+            text-align: left;
+        }
+        .cta{
+            width: 80%;
+        }
+        .certificate div:first-child{
+            text-align: left;
+        }
+        .projects {
+            width: 285px;
+        }
+        .real-proj {
+            height: 50px;
+        }
+        .real-proj {
+            height: 70px;
+        }
+        .overlay{
+            background: url(../images/banner-img.png);
+            background-size: 390px;
+            background-repeat: no-repeat;
+            top: 20%;
+        }
+      }
+    @media (min-width: 1024px){
+        .features-container .features{
+            flex-basis: 30.33%;
+        }
+        .features-container2 .features2{
+            flex-basis: 46%;
+        }
+        .all-p{
+            text-align: center;
+        }
+        .text-left{
+            text-align: left;
+        }
+        .course-desc{
+            display: flex;
+            justify-content: space-between;
+        }
+        .course-desc div{
+            flex: 45% 55%;
+        }
+        .course-desc div:first-child{
+            padding-right: 20px;
+        }
+        .cta{
+            width: 60%;
+        }
+        .topic-instructor{
+            display: flex;
+            justify-content: space-between;
+            text-align: left;
+        }
+        .topic-instructor div:first-child{
+            flex: 1;
+        }
+        .topic-instructor div:last-child{
+            flex: 2;
+        }
+        .instructor{
+            padding-left: 50px;
+        }
+        .certificate div:first-child{
+            text-align: left;
+        }
+        .projects{
+            width: 350px;
+        }
+        .real-proj {
+            height: 50px;
+        }
+      }
+    
+    

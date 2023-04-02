@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+      "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" 
+      "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	
+	<definition name="user.home.layout" template="/jsp/user/layout/home_layout.jsp">		
+		<put-attribute name="header" value="/jsp/user/layout/header.jsp"></put-attribute>
+		<put-attribute name="content" value=""></put-attribute>
+		<put-attribute name="footer" value="/jsp/user/layout/footer.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="user.home" extends="user.home.layout">
+		<put-attribute name="content" value="/jsp/user/common/home.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="user.layout" template="/jsp/user/layout/layout.jsp">		
+		<put-attribute name="header" value="/jsp/user/layout/header.jsp"></put-attribute>
+		<put-attribute name="content" value=""></put-attribute>
+		<put-attribute name="footer" value="/jsp/user/layout/footer.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="user.register.candidate" extends="user.layout">
+		<put-attribute name="content" value="/jsp/user/common/register-candidate.jsp"></put-attribute>
+	</definition>
+	
+	
+	<definition name="user.blog.details" extends="user.layout">
+		<put-attribute name="content" value="/jsp/user/common/blog-details.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="user.blog" extends="user.layout">
+		<put-attribute name="content" value="/jsp/user/common/blog.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="user.article" extends="user.layout">
+		<put-attribute name="content" value="/jsp/user/common/articles.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="user.article.details" extends="user.layout">
+		<put-attribute name="content" value="/jsp/user/common/article-details.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="user.corporate.training" extends="user.layout">
+		<put-attribute name="content" value="/jsp/user/common/corporate-training.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="user.ebooks" extends="user.layout">
+		<put-attribute name="content" value="/jsp/user/common/e-books.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="user.become.trainer" extends="user.layout">
+		<put-attribute name="content" value="/jsp/user/common/become-a-trainer.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="user.contributor" extends="user.layout">
+		<put-attribute name="content" value="/jsp/user/common/contributor.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="user.privacy.policy" extends="user.layout">
+		<put-attribute name="content" value="/jsp/user/common/privacy-policy.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="user.terms.ofuse" extends="user.layout">
+		<put-attribute name="content" value="/jsp/user/common/terms-of-use.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="user.contact.us" extends="user.layout">
+		<put-attribute name="content" value="/jsp/user/common/contact-us.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="user.videos" extends="user.layout">
+		<put-attribute name="content" value="/jsp/user/common/videos.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="user.login" extends="user.layout">
+		<put-attribute name="content" value="/jsp/user/common/login.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="user.live.courses" extends="user.layout">
+		<put-attribute name="content" value="/jsp/user/common/live-courses.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="user.careers" extends="user.layout">
+		<put-attribute name="content" value="/jsp/user/common/careers.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="user.internships" extends="user.layout">
+		<put-attribute name="content" value="/jsp/user/common/internships.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="user.contest" extends="user.layout">
+		<put-attribute name="content" value="/jsp/user/common/contest.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="user.contest.details" extends="user.layout">
+		<put-attribute name="content" value="/jsp/user/common/contest-details.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="user.webinars" extends="user.layout">
+		<put-attribute name="content" value="/jsp/user/common/webinars.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="user.webinars.registration" extends="user.layout">
+		<put-attribute name="content" value="/jsp/user/common/webinars_registration.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="user.jobs" extends="user.layout">
+		<put-attribute name="content" value="/jsp/user/common/jobs.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="user.jobs.details" extends="user.layout">
+		<put-attribute name="content" value="/jsp/user/common/jobs-details.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="user.jobs.search" extends="user.layout">
+		<put-attribute name="content" value="/jsp/user/common/jobs-search.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="user.mentor.registration" extends="user.layout">
+		<put-attribute name="content" value="/jsp/user/common/mentor-registration.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="user.corporate.enquiry" extends="user.layout">
+		<put-attribute name="content" value="/jsp/user/common/corporate-enquiry.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="user.ebp.candidate.application" extends="user.layout">
+		<put-attribute name="content" value="/jsp/user/common/ebp-candidate-application.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="user.error" extends="user.layout">
+		<put-attribute name="content" value="/jsp/user/common/error.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="user.sitemap" extends="user.layout">
+		<put-attribute name="content" value="/jsp/user/common/sitemap.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="user.services" extends="user.layout">
+		<put-attribute name="content" value="/jsp/user/common/services.jsp"></put-attribute>
+	</definition>
+	
+	<!-- <definition name="landing.ebp" extends="user.layout">
+		<put-attribute name="content" value="/jsp/landing-pages/ebp.jsp"></put-attribute>
+	</definition> -->
+	
+	<definition name="landing.propel" extends="user.layout">
+		<put-attribute name="content" value="/jsp/landing-pages/propel.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="landing.accel" extends="user.layout">
+		<put-attribute name="content" value="/jsp/landing-pages/accel.jsp"></put-attribute>
+	</definition>
+	
+	<!--Landing Page Tiles Starts Here  -->
+	
+	<definition name="landing.data.structure" template="/jsp/landing-pages/Data-structure-predictive-analysis.jsp"></definition>
+	<definition name="landing.machine.learning" template="/jsp/landing-pages/machine-learning-mastery.jsp"></definition>
+	<definition name="landing.devops" template="/jsp/landing-pages/dev-ops.jsp"></definition>
+	<definition name="landing.Deep.Learning" template="/jsp/landing-pages/Data-Science-Deep-Learning-Specialisation.jsp"></definition>
+	<definition name="landing.CNN.Processing" template="/jsp/landing-pages/cnn-for-image-processing.jsp"></definition>
+	<definition name="landing.it.staffing" template="/jsp/landing-pages/it-staffing.jsp"></definition>
+	<definition name="landing.ebp.try" template="/jsp/landing-pages/ebp.jsp"></definition>
+	
+	<definition name="land.recorder" template="/jsp/landing-pages/recorder.jsp"></definition>
+	
+	<!-- <definition name="landing.ebp" template="/jsp/landing-pages/ebp.jsp"></definition> -->
+	
+	<definition name="landing.ebp" extends="user.layout">
+		<put-attribute name="content" value="/jsp/landing-pages/ebp_old.jsp"></put-attribute>
+	</definition>
+
+	<!--Landing Page Tiles Ends Here  -->
+	
+	<definition name="user.godaddy" template="/jsp/user/godaddy/godaddy.jsp"></definition>
+	<definition name="user.email.authentication" template="/jsp/user/email/authentication.jsp"></definition>
+	
+	<definition name="bootcamp.exam.test" extends="user.layout">
+		<put-attribute name="content" value="/jsp/bootcamp/exam/test.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="bootcamp.exam.test.online" extends="user.layout">
+		<put-attribute name="content" value="/jsp/bootcamp/exam/online-test.jsp"></put-attribute>
+	</definition>
+	
+	
+	<definition name="bootcamp.exam.test.user" extends="user.layout">
+		<put-attribute name="content" value="/jsp/bootcamp/exam/test-user.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="bootcamp.test.online.link" template="/jsp/bootcamp/exam/online-test.jsp"></definition>
+	
+	<definition name="bootcamp.exam.view.result" extends="user.layout">
+		<put-attribute name="content" value="/jsp/bootcamp/exam/view-result.jsp"></put-attribute>
+	</definition>
+	
+</tiles-definitions>

@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+<session-factory>
+<property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+<property name="hibernate.connection.url">jdbc:mysql://31.220.111.246:3306/teksands?characterEncoding=utf-8&amp;useSSL=false&amp;serverTimezone=Asia/Kolkata</property>
+<property name="hibernate.connection.username">teksands</property>
+<property name="hibernate.connection.password">Teks#869@</property>
+<property name="show_sql">false</property>
+<property name="format_sql">false</property>
+<property name="use_sql_comments">false</property>
+<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+<property name="hibernate.current_session_context_class">thread</property>
+
+<!-- configuration pool via c3p0  https://community.jboss.org/wiki/HowToConfigureTheC3P0ConnectionPool-->   
+<property name="connection.provider_class">org.hibernate.connection.C3P0ConnectionProvider</property>
+<property name="hibernate.c3p0.acquire_increment">1</property>
+<property name="hibernate.c3p0.idle_test_period">1800</property>
+<property name="hibernate.c3p0.maxIdleTimeExcessConnections">60</property>
+<property name="hibernate.c3p0.timeout">2400</property>
+<property name="hibernate.c3p0.max_size">5</property>
+<property name="hibernate.c3p0.min_size">1</property>
+<property name="hibernate.c3p0.max_statements">0</property>
+<property name="hibernate.c3p0.preferredTestQuery">select 1;</property>
+
+<mapping class="com.teksands.user.model.Blogs" />
+<mapping class="com.teksands.user.model.Leads" />
+<mapping class="com.teksands.user.model.Contactus" />
+<mapping class="com.teksands.user.model.Countries" />
+<mapping class="com.teksands.user.model.Trainers" />
+<mapping class="com.teksands.user.model.Contributor" />
+<mapping class="com.teksands.user.model.Ebooks" />
+<mapping class="com.teksands.user.model.Users" />
+<mapping class="com.teksands.user.model.Courses" />
+<mapping class="com.teksands.user.model.Career" />
+<mapping class="com.teksands.user.model.Internship" />
+<mapping class="com.teksands.user.model.EbooksDownload" />
+<mapping class="com.teksands.user.model.Webinars" />
+<mapping class="com.teksands.user.model.WebinarContacts" />
+<mapping class="com.teksands.user.model.Jobs" />
+<mapping class="com.teksands.user.model.JobsApplications" />
+<mapping class="com.teksands.user.model.Article" />
+<mapping class="com.teksands.user.model.CorporateEnquiry" />
+<mapping class="com.teksands.user.model.Mentors" />
+<mapping class="com.teksands.user.model.EBPCandidate" />
+<mapping class="com.teksands.user.model.EbpEmails" />
+<mapping class="com.teksands.user.model.HomeEnquiry" />
+<mapping class="com.teksands.user.model.ItStaffing" />
+
+<mapping class="com.teksands.bootcamp.model.Brand" />
+<mapping class="com.teksands.bootcamp.model.BrandDirectors" />
+<mapping class="com.teksands.bootcamp.model.CmsUser" />
+<mapping class="com.teksands.bootcamp.model.Candidate" />
+<mapping class="com.teksands.bootcamp.model.Pincode" />
+<mapping class="com.teksands.bootcamp.model.Bootcamp" />
+<mapping class="com.teksands.bootcamp.model.ClientMaster" />
+<mapping class="com.teksands.bootcamp.model.MentorMaster" />
+<mapping class="com.teksands.bootcamp.model.ClientContact" />
+<mapping class="com.teksands.bootcamp.model.Interview" />
+<mapping class="com.teksands.bootcamp.model.CallSchedule" />
+<mapping class="com.teksands.bootcamp.model.CandidateFeedback" />
+<mapping class="com.teksands.bootcamp.model.JobMaster" />
+<mapping class="com.teksands.bootcamp.model.JobApplication" />
+<mapping class="com.teksands.bootcamp.model.Log" />
+<mapping class="com.teksands.bootcamp.model.CmsParameter" />
+
+
+<mapping class="com.teksands.bootcamp.model.Test" />
+<mapping class="com.teksands.bootcamp.model.TestAnswer" />
+<mapping class="com.teksands.bootcamp.model.TestQuestion" />
+<mapping class="com.teksands.bootcamp.model.TestResults" />
+<mapping class="com.teksands.bootcamp.model.TestUser" />
+<mapping class="com.teksands.bootcamp.model.TestComment" />
+<mapping class="com.teksands.bootcamp.model.TkTestResults" />
+
+</session-factory>
+</hibernate-configuration>

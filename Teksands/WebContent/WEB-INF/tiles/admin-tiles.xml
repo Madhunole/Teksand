@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+      "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" 
+      "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	
+	<definition name="admin.layout" template="/jsp/admin/layout/layout.jsp">		
+		<put-attribute name="header" value="/jsp/admin/layout/header.jsp"></put-attribute>
+		<put-attribute name="content" value=""></put-attribute>
+		<put-attribute name="footer" value="/jsp/admin/layout/footer.jsp"></put-attribute>
+	</definition>
+	
+	
+	<definition name="admin.home" extends="admin.layout">
+		<put-attribute name="content" value="/jsp/admin/common/home.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="admin.leads" extends="admin.layout">
+		<put-attribute name="content" value="/jsp/admin/common/leads.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="admin.careers" extends="admin.layout">
+		<put-attribute name="content" value="/jsp/admin/common/career.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="admin.contacts" extends="admin.layout">
+		<put-attribute name="content" value="/jsp/admin/common/contacts.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="admin.contributor" extends="admin.layout">
+		<put-attribute name="content" value="/jsp/admin/common/contributor.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="admin.ebooks" extends="admin.layout">
+		<put-attribute name="content" value="/jsp/admin/common/ebooks.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="admin.internships" extends="admin.layout">
+		<put-attribute name="content" value="/jsp/admin/common/internships.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="admin.jobs.post" extends="admin.layout">
+		<put-attribute name="content" value="/jsp/admin/common/jobs-post.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="admin.jobs" extends="admin.layout">
+		<put-attribute name="content" value="/jsp/admin/common/jobs.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="admin.jobsapplication" extends="admin.layout">
+		<put-attribute name="content" value="/jsp/admin/common/jobs-applications.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="admin.trainers" extends="admin.layout">
+		<put-attribute name="content" value="/jsp/admin/common/trainers.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="admin.webinars" extends="admin.layout">
+		<put-attribute name="content" value="/jsp/admin/common/webinars.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="admin.webinars.post" extends="admin.layout">
+		<put-attribute name="content" value="/jsp/admin/common/webinar-post.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="admin.webinars.contacts" extends="admin.layout">
+		<put-attribute name="content" value="/jsp/admin/common/webinars-applications.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="admin.corporate.enquiry" extends="admin.layout">
+		<put-attribute name="content" value="/jsp/admin/common/corporate-enquiry.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="admin.mentors" extends="admin.layout">
+		<put-attribute name="content" value="/jsp/admin/common/mentor.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="admin.ebp.candidates" extends="admin.layout">
+		<put-attribute name="content" value="/jsp/admin/common/ebp-candidate.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="admin.it.staffing.contacts" extends="admin.layout">
+		<put-attribute name="content" value="/jsp/admin/common/it-staffing.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="admin.ebp.leads" extends="admin.layout">
+		<put-attribute name="content" value="/jsp/admin/common/ebp-leads.jsp"></put-attribute>
+	</definition>
+	
+</tiles-definitions>
